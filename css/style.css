@@ -48,7 +48,7 @@ header ul li {
 /* main */
 /* homepage */
 .homepage {
-    background: url(..img/загогловочная.jpg);
+    background: url(../img/загогловочная.jpg);
     width: 100%;
     height: 850px;
     background-size: cover;
