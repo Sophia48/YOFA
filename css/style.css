@@ -28,8 +28,8 @@ header {
     align-items: center; 
     padding-top: 25px;
     padding-bottom: 20px;  
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 115px;
+    padding-right: 115px;
 }
 @media (max-width: 768px) {
     header {
@@ -37,8 +37,8 @@ header {
         padding-right: 20px;
     }
 .homepage  {
-    padding-right: 96px;
-    padding-left: 39px;
+    padding-right: 36px;
+    padding-left: 36px;
     }
 }
 header  ul  {
@@ -139,11 +139,7 @@ input [type="text"] {
     .block {
         margin-right: 61px;
         height: 393px;
-        width: 300px;
-    }
-    form {
-        margin-left: 31px;
-        margin-right: 31px;
+        /* width: 300px; */
     }
     form input[type="email"],
     form input[type="tel"],
@@ -155,10 +151,19 @@ input [type="text"] {
     height: 50px;
     width: 169px;
 }
+form {
+    padding: 30px;
+  }
+  .block{
+    padding: 0;
+  }
+  .btn input {
+  margin-top: 32px;
+}
  }
 form {
     padding: 40px;
-  }
+  } 
 .homepage h4 {
     margin-top: 10px;
     margin-bottom: 45px; 
@@ -168,7 +173,7 @@ form input[type="email"],
 form input[type="tel"],
 form input[type="text"] {
     height: 70px;
-    width: 320px;
+    width: 320px; 
     padding: 11px 10px;
     border: 1px solid #b6b6b6;
     border-radius: 11px;
@@ -182,8 +187,8 @@ form input[type="text"] {
     text-align: right;
 }
 .btn input { 
-    width: 200px;
-    height: 60px;
+    /* width: 200px;
+    height: 60px; */
     border-radius: 11px;
     background: rgb(0, 26, 255);
     padding: 25px 80px;
@@ -221,8 +226,14 @@ form input[type="text"] {
     color: #000;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+@media (max-width: 768px) {
+    .box {
+    padding-left: 14px;
+    padding-right: 14px;
+    }
 }
 .yoga-group {
     width: calc(50% - 25px);
@@ -269,6 +280,12 @@ form input[type="text"] {
     background-position: center;
     background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+    .examples  {
+    padding-left: 14px;
+    padding-right: 14px;
+    }
+}
 /* about-us  */
 .about-us {
     padding-top: 234px;
@@ -302,8 +319,14 @@ form input[type="text"] {
     background:rgb(125, 107, 243) ;
     display: flex;;
     width: 100%;    
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+@media (max-width: 768px) {
+    .service-item  {
+    padding-left: 14px;
+    padding-right: 14px;
+    }
 }
 @media (max-width: 768px) {
     .service-item {
@@ -354,7 +377,9 @@ form input[type="text"] {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #000;                  
+    color: #000;   
+    padding-left: 115px;
+    padding-right: 115px;               
 }
 @media (max-width: 1024px) {
     .prices {
@@ -368,6 +393,8 @@ form input[type="text"] {
         height: 1122px;
         padding-top: 50px;
         padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .holder {
         height: 497px;
@@ -375,20 +402,25 @@ form input[type="text"] {
     }
     .text {
     padding: 49px 73px; 
+
+}
+.holder:nth-child(2) {
+    margin-right: 0;
 }
 }
 .holder {
-    height: 650px;/* */
-    width: 495px; 
+    height: 493px; 
+    /* width: 495px;  */
+    /* width: 370px; */
     background: rgb(255, 255, 255);
-    margin-right: 40px;
+ 
     border-radius: 20px;
 }
-.holder:last-child {                                               /*?*/                              
-    margin-right: 0;
-  } 
+.holder:nth-child(-n+2) {
+       margin-right: 30px;
+}
 .prices-item{
-    height: 200px;
+    height: 150px;
     background: slateblue;
     /* text-align: center; */
     justify-content: center;
@@ -412,7 +444,7 @@ form input[type="text"] {
     text-align: center;
 }
 .text {
-    padding: 68px 108px;
+    padding: 51px 70px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -427,13 +459,14 @@ form input[type="text"] {
     margin: 0 auto;
 }
 .holder input {
-    height: 68px;
-    width: 227px;
+    height: 49px;
+    width: 170px;
     border-radius: 20px;
     background: blue;
     border: none;
     font-size: 29px;
     color: #fff;
+    margin-bottom: 51px;
 } 
 /* conclusion  */
 .conclusion img{
@@ -444,8 +477,8 @@ form input[type="text"] {
     display: flex;
     height: 738px;
     background: rgb(43, 137, 226);
-    padding-left: 170px;
-    padding-right: 170px;
+    padding-left: 115px;
+    padding-right: 115px;
 }
 .about,
 .contact-us {
