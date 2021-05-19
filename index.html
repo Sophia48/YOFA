@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YOGA</title>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/ slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/ slick-theme.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <!-- body -->
@@ -18,34 +22,38 @@
             <div class="logo">
                 <img src="img/logo.png" alt="">
             </div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#">About us</a>
-                    </li>
-                    <li>
-                        <a href="#">Reservation</a>
-                    </li>
-                    <li>
-                        <a href="#">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Elements</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop</a>
-                    </li>
-                </ul>
-            </div>
+            <nav class="nav-menu">
+                    <input type="checkbox" name="" id="mob-menu"> 
+                    <label for="mob-menu">
+                        <span></span>
+                    </label>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+                        <li>
+                            <a href="#">Reservation</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Elements</a>
+                        </li>
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                    </ul>
+            </nav>
         </header>
         <!-- main -->
         <div class="main">
             <!-- homepage -->
             <section class="homepage">
-                <div class="block">
+                <div class="block wow fadeInLeftBig" >
                     <form>
                         <h4 style="color: black;">Trial Class</h4>
                         <input type="email" name="Enter your email" placeholder="Enter your email">
@@ -74,7 +82,7 @@
                         </div>
                     </form>
                 </div>
-                <div class="headline">
+                <div class="headline wow fadeInRightBig"  >
                     <h1>Just balance <br> your mind & body</h1>
                     <p>Create the healthy biving
                         <br> fro yourself</p>
@@ -86,7 +94,7 @@
                 <p class="subtitle">Our Classes</p>
                 <div class="Classes">
                     <div class="box">
-                        <div class="yoga-group">
+                        <div class="yoga-group wow fadeInLeftBig">
                             <div class="group-photo" style="background-image: url(img/section1\(img1\).jpg);"></div>
                             <div class="group-info">
                                 <h3>Yoga for health</h3>
@@ -96,7 +104,7 @@
                                 <a href="">Ashanga-Hatha</a>
                             </div>
                         </div>
-                        <div class="yoga-group">
+                        <div class="yoga-group wow fadeInRightBig">
                             <div class="group-photo" style="background-image: url(img/section1\(img2\).jpg);"></div>
                             <div class="group-info">
                                 <h3>Yoga for health</h3>
@@ -106,7 +114,7 @@
                                 <a href="">Ashanga-Hatha</a>
                             </div>
                         </div>
-                        <div class="yoga-group">
+                        <div class="yoga-group wow fadeInLeftBig">
                             <div class="group-photo" style="background-image: url(img/section1\(img3\).jpg);"></div>
                             <div class="group-info">
                                 <h3>Yoga for health</h3>
@@ -116,7 +124,7 @@
                                 <a href="">Ashanga-Hatha</a>
                             </div>
                         </div>
-                        <div class="yoga-group">
+                        <div class="yoga-group wow fadeInRightBig">
                             <div class="group-photo" style="background-image: url(img/section1\(img4\).jpg);"></div>
                             <div class="group-info">
                                 <h3>Yoga for health</h3>
@@ -131,14 +139,16 @@
             </section>
             <!-- examples -->
             <section class="examples">
-                <div class="examples-photo" style="background-image: url(img/section2\(img1\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img2\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img3\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img4\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img5\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img6\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img7\).jpg);"></div>
-                <div class="examples-photo" style="background-image: url(img/section2\(img8\).jpg);"></div>
+                <div class="examples-photo wow slideInLeft" style="background-image: url(img/section2\(img1\).jpg);">
+                 <div class="search"><a href="#"><img src="img/поиск.svg" alt=""></a></div>
+                </div>
+                <div class="examples-photo wow slideInLeft" style="background-image: url(img/section2\(img2\).jpg);"></div>
+                <div class="examples-photo wow slideInLeft" style="background-image: url(img/section2\(img3\).jpg);"></div>
+                <div class="examples-photo wow slideInLeft" style="background-image: url(img/section2\(img4\).jpg);"></div>
+                <div class="examples-photo wow slideInRight" style="background-image: url(img/section2\(img5\).jpg);"></div>
+                <div class="examples-photo wow slideInRight" style="background-image: url(img/section2\(img6\).jpg);"></div>
+                <div class="examples-photo wow slideInRight" style="background-image: url(img/section2\(img7\).jpg);"></div>
+                <div class="examples-photo wow slideInRight" style="background-image: url(img/section2\(img8\).jpg);"></div>
             </section>
             <!-- about-us -->
             <section class="about-us">
@@ -147,58 +157,54 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga hic at perferendis sunt officia tempore in ipsum atque ea iusto distinctio quam sit similique labore molestiae ducimus quidem nisi, eaque vero porro saepe quae obcaecati!
                         Distinctio aut facilis, nostrum cum vero rem soluta minima a inventore aperiam, eaque hic dicta?</p>
                 </div>
-                <div class="multiple-items">
-                    <div>your content</div>
-                    <div>your content</div>
-                    <div>your content</div>
+                <div class="col abour-slick wow fadeinRight animated">
+                    <div class="multiple-items">
+                        <div class="slick-img" style="background-image: url(img/section2\(img6\).jpg)"></div>
+                        <div class="slick-img" style="background-image: url(img/section2\(img7\).jpg)"></div>
+                        <div class="slick-img" style="background-image: url(img/section2\(img8\).jpg)"></div>
+                    </div>
                 </div>
             </section>
             <!-- service-item -->
             <section class="service-item">
                 <ul>
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-01.png" alt=""></img>
                         </div>
                         <h4>improved overall health</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perferendis?</p>
                     </li>
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-02.png" alt=""></div>
                         <h4>increased concentration</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
                     </li>
-
-                    <li>
+                    <li class="wow fadeIn">
                         <div><img src="img/ico-03.png" alt=""></div>
                         <h4>blance your mind</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
                     </li>
-
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-04.png" alt=""></div>
                         <h4>sleep better</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
                     </li>
-
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-05.png" alt=""> </div>
                         <h4>weighr loss</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
                     </li>
-
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-06.png" alt=""></div>
                         <h4>strengthens your bones</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
                     </li>
-
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-07.png" alt=""></div>
                         <h4>increased flexibility</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
                     </li>
-
-                    <li>
+                    <li class="wow fadeIn">
                         <div> <img src="img/ico-08.png" alt=""></div>
                         <h4>lower blood pressure</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
@@ -207,7 +213,7 @@
             </section>
             <!-- prices -->
             <section class="prices">
-                <div class="holder">
+                <div class="holder wow fadeInLeftBig">
                     <p class="prices-item">
                         <span class="currency">
                            <b> $</b>
@@ -240,7 +246,7 @@
                     </div>
                     <input type="button" value="Buy now">
                 </div>
-                <div class="holder">
+                <div class="holder wow fadeInUp">
                     <p class="prices-item">
                         <span class="currency">
                            <b> $</b>
@@ -273,7 +279,7 @@
                     </div>
                     <input type="button" value="Buy now">
                 </div>
-                <div class="holder">
+                <div class="holder wow fadeInRightBig">
                     <p class="prices-item">
                         <span class="currency">
                            <b>$</b> 
@@ -310,16 +316,15 @@
             <!-- footer -->
             <section class="conclusion">
                 <div class="conclusion2">
-                    <div class="about">
+                    <div class="about wow fadeInLeftBig">
                         <h3>About</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi et neque velit explicabo? Ullam ea atque, distinctio nobis nisi architecto! Possimus, perferendis? At quo commodi omnis quasi sequi eos nesciunt!</p>
                     </div>                
-
                 </div>
                 <div class="contact-us">
-                    <h3>contact us</h3>
+                    <h3 class="wow fadeInLeftBig" >contact us</h3>
                     <ul>
-                        <li>
+                        <li class="wow fadeInLeftBig">
                             <div>
                                 <img src="img/location.svg" alt="">
                             </div>
@@ -327,13 +332,13 @@
                                 <a href=""> 5419 joseph Mountains <br> Apt. 716</a>
                             </div>
                         </li>
-                        <li>
+                        <li class="wow fadeInLeftBig">
                             <div>
                                 <img src="img/email.svg" alt="">
                             </div>
                             <a href="joga.info@example.com">joga.info@example.com</a>
                         </li>
-                        <li>
+                        <li class="wow fadeInLeftBig">
                             <div>
                                 <img src="img/phone-ringing.svg" alt="">
                             </div>
@@ -343,7 +348,7 @@
                                 <a href="+1 234 678 90">+1 234 678 90</a>
                             </div>
                         </li>
-                        <li>
+                        <li class="wow fadeInLeftBig">
                             <div>
                                 <img src="img/planet-earth.svg" alt="">
                             </div>
@@ -353,11 +358,11 @@
                 </div>
             </section>
             <section class="social-network">
-                <img src="img/pinterest.svg" alt="">
-                <img src="img/twitter.svg" alt="">
-                <img src="img/facebook.svg" alt="">
-                <img src="img/google-symbol.svg" alt="">
-                <img src="img/free-icon-instagram-160167.svg" alt="">
+                <img class="wow fadeInLeftBig" src="img/pinterest.svg" alt="">
+                <img class="wow fadeInLeftBig" src="img/twitter.svg" alt="">
+                <img class="wow fadeInLeftBig" src="img/facebook.svg" alt="">
+                <img class="wow fadeInLeftBig" src="img/google-symbol.svg" alt="">
+                <img class="wow fadeInLeftBig" src="img/free-icon-instagram-160167.svg" alt="">
             </section>
         </div>
         <footer>
@@ -367,14 +372,20 @@
         </footer>
     </div>
     </div>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
     <script>
         $('.multiple-items').slick({
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
         });
     </script>
-</body>
 
+</body>
+    <script src="js/wow.min.js">
+    </script>
+    <script>
+    new WOW().init();
+    </script>  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+    </script>
 </html>
